@@ -1,0 +1,13 @@
+LOGS/
+__pycache__/
+virtual/
+.env
+static/*
+
+# unignore still
+!static/montserrat/
+!static/*.css
+!static/*.js
+
+
+https://github.com/Deventellope/thumbler_app.git
