@@ -147,12 +147,8 @@ nav h2{
     font-weight: 500;
 }
 nav h2 mark{ 
-<<<<<<< HEAD
     text-transform: capitalize;
 
-=======
-    text-transform: uppercase;
->>>>>>> 8dd7e0c39acd19ed37f421f1cfa424d8c795fd91
     letter-spacing: 5px;
     text-shadow: 1px 0 0 rgba(255, 255, 255, 0.5);
     
@@ -160,7 +156,6 @@ nav h2 mark{
     font-size: 40px;
     font-weight: 500;
 }
-<<<<<<< HEAD
 
 main{
     /* margin-top: 30px; */
@@ -189,16 +184,6 @@ main{
     margin-top: 50px;
     margin-bottom: 50px;
     max-width: 40ch;
-=======
-.intro2{ 
-    margin-top: 40px;
-
-    justify-self: center;
-    /* text-wrap: balance; */
-
-    max-width: 40ch;
-    text-justify: center;
->>>>>>> 8dd7e0c39acd19ed37f421f1cfa424d8c795fd91
 
     color: rgba(255, 255, 255, 0.5);
     text-transform: capitalize;
@@ -208,7 +193,6 @@ main{
     font-weight: 500;
 }
 
-<<<<<<< HEAD
 .options {
     display: flex;
     height: fit-content;
@@ -216,25 +200,6 @@ main{
     
     row-gap: 15px;
     /* grid-template-columns: 1fr; */
-=======
-.main2{
-    margin-top: 30px;
-    width: min(750px 100vw);
-    width: 100%;
-
-    display: flex;
-    justify-content: center;
-}
-
-.options {
-    display: if(media(width <= 800px): grid ;
-    else : flex);
-    width: min(600px, 100vw);
-    height: fit-content;
-    
-    row-gap: 10px;
-    grid-template-columns: 1fr;
->>>>>>> 8dd7e0c39acd19ed37f421f1cfa424d8c795fd91
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -242,40 +207,21 @@ main{
 
 .options input::placeholder{
     height: fit-content;
-<<<<<<< HEAD
-=======
-    background: none;
-
->>>>>>> 8dd7e0c39acd19ed37f421f1cfa424d8c795fd91
 
     color: white;
     font-size: 20px;
     font-weight: 400;
     text-transform: capitalize;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 8dd7e0c39acd19ed37f421f1cfa424d8c795fd91
 .options input{
     width: 100%;
     height: 60px;
     border-radius: 12px;
-<<<<<<< HEAD
     box-shadow: 0 0 0px 2px var(--accent);
 
     text-align: center;
     padding: 10px;
     color: rgba(255, 255, 255, 0.5);
-=======
-    /* background: var(--bg-sec-1); */
-    box-shadow: 0 0 0px 2px var(--bg-sec-1);
-    box-shadow: 0 0 0px 2px var(--accent);
-
-    text-align: left;
-    padding: 10px;
-    color: white;
->>>>>>> 8dd7e0c39acd19ed37f421f1cfa424d8c795fd91
     font-size: 22px;
     font-weight: 400;
 }
@@ -285,7 +231,6 @@ main{
 }
 .options button{
     justify-self: center;
-<<<<<<< HEAD
 
     display: flex;
     justify-content: center;
@@ -296,43 +241,21 @@ main{
 
     border: 2px solid var(--bg-sec-2);
     background: var(--accent);
-=======
-    margin-top: 10px;
-
-    display: flex;
-    padding: 10px;
-    border-radius: 12px;
-    border: 1px solid var(--bg-sec-2);
-
->>>>>>> 8dd7e0c39acd19ed37f421f1cfa424d8c795fd91
     width: fit-content;
     height: fit-content;
     
     text-wrap: nowrap;
-<<<<<<< HEAD
-=======
-    color:  var(--bg-sec-1);
->>>>>>> 8dd7e0c39acd19ed37f421f1cfa424d8c795fd91
     color: rgba(255, 255, 255);
     text-transform: uppercase;
     font-size: 24px;
     font-weight: 500;
 }
 .options button svg{
-<<<<<<< HEAD
     width: 40px;
     height: 40px;
 
     fill: white;
 }
-=======
-    width: 25px;
-    height: 25px;
-    fill: var(--accent);
-    transform: rotate(35deg);
-}
-
->>>>>>> 8dd7e0c39acd19ed37f421f1cfa424d8c795fd91
 .options button:hover svg{
     stroke: white;
 }
@@ -348,7 +271,6 @@ main{
 }
 
 
-<<<<<<< HEAD
 .info{
     margin-top: 20px;
     height: fit-content;
@@ -363,40 +285,11 @@ main{
 .info h1{
     letter-spacing: 2px;
     
-=======
-.content{
-    margin-top: 20px;
-
-    align-self: center;
-    width: 100%;
-    max-width: 900px;
-    
-    display: grid;
-    grid-template-rows: auto, 1fr;
-    /* grid-template-columns: repeat(auto-fill, minmax(250px,1fr) ); */
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr) );
-    row-gap: 30px;
-    column-gap: 15px;
-}
-.content span{
-    height: fit-content;
-    grid-column: 1/-1;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.content span h1{
-    letter-spacing: 2px;
-    color: rgba(255, 255, 255, 0.5);
-
->>>>>>> 8dd7e0c39acd19ed37f421f1cfa424d8c795fd91
     font-size: 32px;
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 10px;
 }
-<<<<<<< HEAD
 .info p{
     display: none;
     color: white;
@@ -420,8 +313,8 @@ main{
 
     width: fit-content;
     height: fit-content;
-    display: none;
     display: flex;
+    display: none;
     row-gap: 10px;
 
     flex-direction: column;
@@ -437,52 +330,21 @@ main{
     max-height: 450px;
     
     border-radius: 12px;
-=======
-.content>div{
-    width: 100%;
-    height: fit-content;
-
-    display: flex;
-    flex-direction: column;
-    row-gap: 10px;
-    justify-content: flex-start;
-    align-items: center;
-}
-.content div div{
-    width: 100%;
-    height: fit-content;
-}
-.content img{
-    width: 100%;
-    height: 300px;
-    border-radius: 12px;
-    /* border: 2px solid ; */
-    box-shadow: 0 0 0 2px var(--bg-sec-1);
-
->>>>>>> 8dd7e0c39acd19ed37f421f1cfa424d8c795fd91
     object-position:center ;
     object-fit: cover;
 }
 
-<<<<<<< HEAD
 #image_card button{
-=======
-.content button{
->>>>>>> 8dd7e0c39acd19ed37f421f1cfa424d8c795fd91
     width: fit-content;
     padding: 10px;
     border-radius: 4px;
     background: var(--accent);
-<<<<<<< HEAD
     box-shadow:  0px 1px 0 0px white;
     border: 2px solid white;
-=======
->>>>>>> 8dd7e0c39acd19ed37f421f1cfa424d8c795fd91
 
     display: flex;
     justify-content: center;
     align-items: center;
-<<<<<<< HEAD
     column-gap: 20px;
 
     letter-spacing: 2px;
@@ -497,17 +359,6 @@ main{
 #image_card svg{
     height: 30px;
     width: 30px;
-=======
-
-    font-size: 16px;
-    font-weight: 500;
-    text-transform: capitalize;
-    letter-spacing: 2px;
-}
-.content svg{
-    height: 20px;
-    width: 20px;
->>>>>>> 8dd7e0c39acd19ed37f421f1cfa424d8c795fd91
     fill: white;
 }
 
@@ -862,12 +713,7 @@ footer{
     padding: 20px;
     border-radius: 12px;
 
-<<<<<<< HEAD
     /* box-shadow: 0 0 2px 0 white; */
-=======
-    background: var(--bg-sec-2) ;
-    box-shadow: 0 0 2px 0 white;
->>>>>>> 8dd7e0c39acd19ed37f421f1cfa424d8c795fd91
 
     height: fit-content;
     width: min(500px, 100vw);
@@ -887,19 +733,12 @@ footer{
     border-radius: 100%;
 }
 .div2 a{
-<<<<<<< HEAD
     /* color: var(--bg-sec-1); */
     opacity: .3;
     width: fit-content;
 
     text-transform: capitalize;
     font-size: 20px;
-=======
-    opacity: .3;
-
-    text-transform: capitalize;
-    font-size: 18px;
->>>>>>> 8dd7e0c39acd19ed37f421f1cfa424d8c795fd91
     font-weight: 200;
 }
 
