@@ -6,7 +6,9 @@ app = Flask(__name__)
 
 @app.route('/ads.txt')
 def ads_txt():
-    return send_from_directory('static', 'ads.txt')
+    content = "google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0"
+    return content, 200, {'Content-Type': 'text/plain'}
+    # return send_from_directory('static', 'ads.txt')
 
 @app.route('/')
 def index():
