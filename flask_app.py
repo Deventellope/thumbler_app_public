@@ -1,7 +1,12 @@
-from flask import Flask, request, render_template, jsonify
+from flask import Flask, request, render_template, jsonify, send_from_directory
 from extract_image_link import *
 
 app = Flask(__name__)
+
+
+@app.route('/ads.txt')
+def ads_txt():
+    return send_from_directory('static', 'ads.txt')
 
 @app.route('/')
 def index():
