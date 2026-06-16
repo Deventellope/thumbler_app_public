@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from flask import Flask , request, render_template, jsonify
 
 from extract_image_link import *
@@ -17,11 +18,18 @@ app = Flask(__name__)
 #         ws.send(f"echo: {data}")  # send back to client
 
 
+=======
+from flask import Flask , request, render_template
+
+app= Flask(__name__)
+
+>>>>>>> 8dd7e0c39acd19ed37f421f1cfa424d8c795fd91
 @app.route('/')
 def index():
     return render_template('index.html')
 
 
+<<<<<<< HEAD
 @app.route("/serve", methods=["POST"])
 def serve_image():
 
@@ -69,5 +77,7 @@ async def download():
 
 
 
+=======
+>>>>>>> 8dd7e0c39acd19ed37f421f1cfa424d8c795fd91
 if __name__== "__main__":
     app.run(port=1000, debug=True)

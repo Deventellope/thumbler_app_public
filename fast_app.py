@@ -25,6 +25,12 @@ async def home(request: Request):
                                     #    {"request": request, "title": "home page",'message': 'loading index.html page'}
                                        )
 
+<<<<<<< HEAD
+=======
+# @app.get("/info", response_class= HTMLResponse)
+# async def info(request: Request):
+#     print(' youve reached the info endpoint ')
+>>>>>>> 8dd7e0c39acd19ed37f421f1cfa424d8c795fd91
 
     
 if __name__ == "__main__":
